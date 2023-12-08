@@ -98,7 +98,7 @@ const DataPokemon = () => {
 
   useEffect(() => {
     fetchPokemon(currentPage);
-  });
+  },[currentPage]);
 
   return (
     <>
