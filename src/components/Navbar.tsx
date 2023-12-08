@@ -13,50 +13,8 @@ const Navbar = () => {
         }}
       >
         <Row>
-          <Col span={12}>
-            <img src="./img/logo.png" style={{ width: "300px" }} />
-          </Col>
-          <Col span={12} style={{ display: "flex", flexDirection: "row" }}>
-            <p
-              style={{
-                marginRight: "20px",
-                fontSize: "30px",
-                marginTop: "60px",
-                color: "red",
-              }}
-            >
-              Pokemon
-            </p>
-            <p
-              style={{
-                marginRight: "20px",
-                fontSize: "30px",
-                marginTop: "60px",
-                color: "black",
-              }}
-            >
-              About
-            </p>
-            <p
-              style={{
-                marginRight: "20px",
-                fontSize: "30px",
-                marginTop: "60px",
-                color: "blue",
-              }}
-            >
-              Battle Power
-            </p>
-            <p
-              style={{
-                marginRight: "20px",
-                fontSize: "30px",
-                marginTop: "60px",
-                color: "black",
-              }}
-            >
-              List of Type Pokemon
-            </p>
+          <Col style={{textAlign:'center'}} span={24}>
+            <img src="./img/logo.png" style={{ width: "300px"}} />
           </Col>
         </Row>
       </Header>
