@@ -191,7 +191,7 @@ const DataPokemon = () => {
             return TypePokemon;
           })
           .map((poke: PokemonName, index: number) => (
-            <Col className="poke" key={index} span={6}>
+            <Col className="poke" key={index} xs={24} sm={12} md={8} lg={8} xl={6}>
               <Card className="poke-card">
                 <Typography.Title level={1}># {poke.id}</Typography.Title>
                 <Typography.Title className="poke-name" level={1}>
